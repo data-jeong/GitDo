@@ -16,11 +16,11 @@ TODO Manager는 일일 작업 목록을 관리하기 위한 간단하면서도 �
 1. **스크립트 다운로드**: 이 리포지토리를 클론하거나 `todo_manager.sh` 스크립트 파일을 다운로드합니다.
 2. **실행 권한 부여**: 다운로드한 스크립트에 실행 권한을 부여합니다.
     ```bash
-    chmod +x todo_manager.sh
+    chmod +x todo.sh
     ```
 3. **스크립트 실행**: 스크립트를 실행하여 대화형 메뉴를 통해 TODO 항목을 관리합니다.
     ```bash
-    ./todo_manager.sh
+    ./todo.sh
     ```
 
 ## 설치
