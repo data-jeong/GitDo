@@ -70,7 +70,6 @@ function complete_todo() {
     fi
     # 커밋 메시지 입력 받기
     commit_message=$(prompt_for_input "Enter commit message for '$2': ")
-    echo "Commit for '$2': $commit_message" >> "$TODO_FILE"
     echo "Completed: $2 with commit message: $commit_message"
     # Git 커밋 및 푸시
     git add "$TODO_FILE"
